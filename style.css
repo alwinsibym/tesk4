@@ -1,0 +1,126 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Kaisei Decol';
+    letter-spacing: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
+
+  a:link {
+    color: #a66; 
+  }
+  
+  a:visited {
+    color: #d92c9f; 
+  }
+  
+  a:hover {
+    color: #0048ff; 
+    text-decoration: none;
+  }
+
+  a:focus {
+    outline: none;
+  }
+
+  a:active {
+    color: #FF0000; 
+    font-weight: bold; 
+  }
+
+  li{
+    line-height: 30px;
+    list-style-type: square;
+  }
+
+  a[href*="http"] {
+    background: url('media/external-link-52.png') no-repeat 100% 0;
+    background-size: 15px 15px;
+    padding-right: 19px;
+  }
+  
+  nav {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-right: -363px;
+ }
+ nav ul{
+    text-align: center;
+    padding: 0;
+ }
+ nav ul li{
+    width: 80%;
+    list-style: none;
+    border: 2px solid brown;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 12px;
+ }
+
+ nav ul a {
+   text-decoration: none;
+   display: block;
+   padding: 15px;
+ }
+
+ section > p
+{
+   text-indent: 20px;
+}
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
